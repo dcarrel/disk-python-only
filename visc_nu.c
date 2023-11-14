@@ -2,8 +2,6 @@
 /*! \file  
  *  \brief Specification of explicit first and second viscosity coefficients*/
 /* /////////////////////////////////////////////////////////////////// */
-extern double UNIT_G;
-extern double UNIT_MASS;
 #include "pluto.h"
 /* ************************************************************************** */
 void Visc_nu(double *v, double x1, double x2, double x3,

@@ -12,7 +12,6 @@
 */
 /* ///////////////////////////////////////////////////////////////////// */
 #include "pluto.h"
-extern double UNIT_TIME, UNIT_MASS, UNIT_ENERGY;
 /* ***************************************************************** */
 void Radiat (double *v, double *rhs)
 /*!
