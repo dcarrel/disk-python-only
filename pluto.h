@@ -511,10 +511,10 @@
     temperature prs/rho and physical temperature in Kelvin,
     T = (prs/rho)*KELVIN*mu                                   */
 #define KELVIN (UNIT_VELOCITY*UNIT_VELOCITY*CONST_amu/CONST_kB) 
-#define UNIT_MASS     UNIT_DENSITY*UNIT_LENGTH*UNIT_LENGTH*UNIT_LENGTH
-#define UNIT_TIME     UNIT_LENGTH/UNIT_VELOCITY
-#define UNIT_ENERGY   UNIT_MASS*UNIT_VELOCITY*UNIT_VELOCITY
-#define UNIT_G        (6.67e-8)/UNIT_ENERGY/UNIT_LENGTH*UNIT_MASS*UNIT_MASS
+#define UNIT_MASS     (UNIT_DENSITY*UNIT_LENGTH*UNIT_LENGTH*UNIT_LENGTH)
+#define UNIT_TIME     (UNIT_LENGTH/UNIT_VELOCITY)
+#define UNIT_ENERGY   (UNIT_MASS*UNIT_VELOCITY*UNIT_VELOCITY)
+#define UNIT_G        (6.67e-8/UNIT_ENERGY/UNIT_LENGTH*UNIT_MASS*UNIT_MASS)
 /* ********************************************************
     Debug switches
    ******************************************************** */
