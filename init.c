@@ -12,10 +12,6 @@
 */
 /* ///////////////////////////////////////////////////////////////////// */
 #include "pluto.h"
-const double UNIT_MASS    = UNIT_DENSITY*UNIT_LENGTH*UNIT_LENGTH*UNIT_LENGTH;
-const double UNIT_TIME    = UNIT_LENGTH/UNIT_VELOCITY;
-const double UNIT_ENERGY  = UNIT_MASS*UNIT_VELOCITY*UNIT_VELOCITY;
-const double UNIT_G       = (6.67e-8)/UNIT_ENERGY/UNIT_LENGTH*UNIT_MASS*UNIT_MASS;
 /* ********************************************************************* */
 void Init (double *v, double x1, double x2, double x3)
 /*! 
